@@ -13,7 +13,7 @@ useEffect(() => {
             setProducts(await api.get("/products"));
             
         } catch (error) {
-            console.log(error.message , "click")
+            console.log(error.message)
         }
     };
     fetchProducts();

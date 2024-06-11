@@ -8,4 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 Link-Show-Demo:"https://mohammadrezasaeeedi.github.io/store-project-spa"
-refrensAPI:"fakestoreapi.com"
+refrens
+API:"fakestoreapi.com"
+Icon:"https://react-icons.github.io/react-icons"
+LoaderSpiner:"https://mhnpd.github.io/react-loader-spinner"
