@@ -6,11 +6,12 @@ import styles from "./BasketCard.module.css";
 
 function BasketCard({ data , clickHandler}) {
 
-   const  { image , title , quantity } = data ;
+   const  { image , title , quantity , price } = data ;
   return (
     <div className={styles.card}>
         <img src={image} alt={title} />
         <p>{shortenText(title)}</p>
+        <p>{price} $</p>
         <div className={styles.actions}>
            {quantity === 1 && (
             <button  onClick={() => clickHandler("REMOVE_ITEM",data)}>

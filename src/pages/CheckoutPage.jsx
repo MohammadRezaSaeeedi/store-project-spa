@@ -2,6 +2,7 @@ import BasketCard from "../components/BasketCard";
 import BasketSidebar from "../components/BasketSidebar";
 import { useCart } from "../context/CartProvider"
 import styles from "./CheckoutPage.module.css"
+import { PiShoppingCartSimpleBold } from "react-icons/pi"
 
 function CheckoutPage() {
 
@@ -12,8 +13,9 @@ function CheckoutPage() {
   }
 if(!state.itemsCounter) {
   return (
-  <div className={styles.container}>
-    <p>Empty</p>
+  <div className={styles.empty}>
+    <p>You do not have any products in the shopping cart ☹</p>
+    <PiShoppingCartSimpleBold />
   </div>)
 }
   return (
