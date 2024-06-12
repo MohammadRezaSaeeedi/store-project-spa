@@ -2,7 +2,7 @@ import React from 'react'
 
 function PageNotFound () {
   return (
-    <div>PageNotFound</div>
+    <div style={{fontSize:"2rem" , textAlign:"center", color:"#fe5d42" }}>PageNotFound☹</div>
   )
 }
 
